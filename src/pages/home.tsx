@@ -271,7 +271,7 @@ export function Home() {
 
             {/* Hero Visual */}
             <div className="hidden lg:block relative">
-              <div className="absolute inset-0 bg-linear-to-r from-primary/20 to-blue-500/20 rounded-3xl blur-3xl" />
+              <div className="absolute inset-0 bg-linear-to-r from-primary/20 to-blue-500/20 rounded-xl blur-lg" />
               <div className="relative bg-card border rounded-3xl p-8 shadow-xl">
                 <div className="grid grid-cols-2 gap-4">
                   {stats.map((stat, i) => (
